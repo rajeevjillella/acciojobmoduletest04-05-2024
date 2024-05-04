@@ -1,0 +1,683 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .jca {
+    justify-content: space-around;
+  }
+  body {
+    width: 100%;
+    margin: 0%;
+    font-family: "Outfit", sans-serif;
+  }
+  .w100 {
+    width: 100%;
+  }
+  .w50 {
+    width: 50%;
+  }
+  
+  .w30 {
+    width: 30%;
+  }
+  
+  .wrp {
+    text-wrap: wrap;
+  }
+  
+  .co-icon {
+    display: flex;
+    justify-content: end;
+  }
+  nav {
+    justify-content: space-between;
+    margin: 20px 108px;
+    font-size: 18px;
+  }
+  
+  .bt:hover {
+    border-radius: 8px;
+    background: var(--primaryskyblue, #2f80ed);
+    color: white;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    padding: 2px 0px;
+    border-bottom: 0.5px solid rgb(230, 230, 230);
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .ai {
+    align-items: center;
+  }
+  
+  .jc {
+    justify-content: center;
+  }
+  .g12 {
+    gap: 12px;
+  }
+  
+  .jcb {
+    justify-content: space-between;
+  }
+  
+  .g24 {
+    gap: 24px;
+  }
+  
+  .navlinks button {
+    display: flex;
+    width: 108px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px;   */
+  
+    border-radius: 8px;
+    border: 2px solid var(--primaryskyblue, #2f80ed);
+    font-style: italic;
+    font-size: 16px;
+    color: #2f80ed;
+    font-weight: 400;
+  }
+  
+  .hurry {
+    /* padding: 8px 0px; */
+    height: 40px;
+    background-color: #2f80ed;
+    color: white;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left .text h1 {
+    color: var(--BLACK, #2b2f34);
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 130%; /* 65px */
+    letter-spacing: -0.75px;
+  }
+  
+  .left .text h2 {
+    width: 674px;
+    color: var(--primaryskyblue, #2f80ed);
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 130%; /* 65px */
+    letter-spacing: -0.75px;
+    stroke: 1px black;
+  }
+  
+  .left .text p {
+    width: 492px;
+    color: var(--textlabelcolorscharcoal, #595959);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 23.4px */
+    letter-spacing: 0.36px;
+  }
+  
+  .herosection {
+    padding: 80px 110px;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+  }
+  
+  .main {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .txto {
+    color: var(--BLACK, #2b2f34);
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 130%; /* 26px */
+  }
+  
+  .txtl {
+    color: var(--Gray-2, #4f4f4f);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%; /* 18.6px */
+    letter-spacing: 0.12px;
+  }
+  
+  .features {
+    display: flex;
+    width: 711px;
+    height: 77px;
+    /* padding: 15px 20px; */
+    /* align-items: flex-end; */
+    gap: 24px;
+  
+    border-radius: 8px;
+    border: 1px solid #e2e2e2;
+    background: #fff;
+    box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.08);
+  }
+  
+  .name {
+    display: inline-flex;
+    padding: 10px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 23px;
+    background: #fff;
+    box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.12);
+  }
+  
+  .right .right-main {
+    display: inline-flex;
+    padding: 28px 24px 32px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    border-radius: 18px;
+    background: #fff;
+    box-shadow: 0px 25px 54px 0px rgba(0, 0, 0, 0.12);
+  }
+  
+  .right .txt .up {
+    width: 291px;
+    color: var(--BLACK, #2b2f34);
+    text-align: center;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%; /* 48px */
+    letter-spacing: -0.48px;
+  }
+  
+  .right .txt .do {
+    width: 278px;
+    color: #818d9d;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
+  
+  .nam {
+    display: flex;
+    width: 366px;
+    padding: 14px 6px 14px 10px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #fafafa;
+  }
+  
+  .pnum {
+    display: flex;
+    width: 366px;
+    padding: 14px 6px 14px 10px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #fafafa;
+  }
+  
+  .apply {
+    display: flex;
+    width: 367px;
+    padding: 14px 6px 14px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    border-radius: 8px;
+    background: var(--New, linear-gradient(277deg, #992fed 0%, #2f80ed 100%));
+    color: var(--WHITE, #fff);
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+  }
+  
+  .click {
+    width: 291px;
+    color: #818d9d;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+  }
+  
+  .Course_We_Offer {
+    background: #ecf8ff;
+    padding: 80px 200px;
+  }
+  
+  .Course_We_Offer .tu {
+    height: 25px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    background: var(--New, linear-gradient(277deg, #992fed 0%, #2f80ed 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    /* color: #2F80ED; */
+  }
+  
+  .titles {
+    margin-bottom: 60px;
+  }
+  
+  .companies {
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+  }
+  
+  .placement {
+    display: flex;
+    width: 276px;
+    padding: 14px 6px 14px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    border-radius: 8px;
+    background: var(--primaryskyblue, #2f80ed);
+    color: var(--WHITE, #fff);
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+  }
+  .companies .tu {
+    height: 25px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    background: var(--New, linear-gradient(277deg, #992fed 0%, #2f80ed 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .td {
+    color: #2f80ed;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 54px */
+    letter-spacing: -0.54px;
+  }
+  
+  .topStartups {
+    color: var(--BLACK, #2b2f34);
+  
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 54px */
+    letter-spacing: -0.54px;
+  }
+  
+  .FromAccioJobupto41Lakhs {
+    color: var(--textlabelcolorscharcoal, #595959);
+    /* font-family: ?????; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 23.4px */
+    letter-spacing: 0.36px;
+  }
+  
+  .sapling {
+    width: 498px;
+    height: 563px;
+    padding: 24px;
+    border-radius: 9px;
+    border: 1px solid var(--primaryskyblue, #2f80ed);
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  
+  .bord {
+    border: 1px solid var(--primaryskyblue, #e2e2e2);
+  }
+  
+  .up {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  
+  .sapling .up .heading .title {
+    color: var(--BLACK, #2b2f34);
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .sapling .up .chips .job {
+    padding: 6px 15px;
+  
+    gap: 18px;
+    border-radius: 7px;
+    background: #e0f3ff;
+  }
+  
+  .sapling .up .chips {
+    margin-bottom: 8px 0px;
+  }
+  
+  /* intermediate */
+  
+  .sapling .up .chip .job {
+    padding: 6px 15px;
+  
+    gap: 18px;
+    border-radius: 7px;
+    background: #ffeed8;
+  }
+  
+  .sapling .up .chip {
+    margin-bottom: 8px 0px;
+  }
+  
+  /* intermediate */
+  
+  .list {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 12px 0px;
+  }
+  
+  .text {
+    text-align: start;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+  }
+  
+  .elg {
+    width: 175px;
+    flex-shrink: 0;
+  }
+  
+  .button1 {
+    display: flex;
+    width: 203px;
+    padding: 14px 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--primaryskyblue, #2f80ed);
+    background: #fff;
+    color: var(--primaryskyblue, #2f80ed);
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  
+  .button2 {
+    display: flex;
+    width: 210px;
+    padding: 14px 6px 14px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    border-radius: 8px;
+    background: var(--primaryskyblue, #2f80ed);
+  }
+  
+  .button2 .ctx2 {
+    color: var(--WHITE, #fff);
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+  }
+  
+  .cta {
+    justify-content: space-between;
+    margin-top: 24px;
+  }
+  
+  .course_cards {
+    justify-content: space-between;
+  }
+  
+  .acciojobwall {
+    color: var(--BLACK, #2b2f34);
+    text-align: center;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%; /* 63px */
+    letter-spacing: -0.63px;
+  }
+  
+  .alumni {
+    color: var(--textlabelcolorscharcoal, #595959);
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 23.4px */
+    letter-spacing: 0.36px;
+  }
+  
+  .student_wall {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    padding: 80px 90px;
+  }
+  
+  .companies {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    padding: 80px 90px;
+  }
+  
+  .virat {
+    display: inline-flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    border-radius: 10px;
+    border: 2px solid #d7d7d7;
+    background: #fff;
+    box-shadow: 5px 9px 40px 0px rgba(0, 0, 0, 0.08);
+  }
+  
+  .testimonial1 {
+    flex-direction: column;
+  }
+  
+  .border {
+    border: 2px solid green;
+  }
+  
+  .partnerslogos {
+    flex-direction: column;
+  }
+  
+  .text-wrap {
+    text-wrap: wrap !important;
+  }
+  .w-100 {
+    width: 100%;
+  }
+  
+  /* Media Query */
+  
+  @media (min-width: 368px) and (max-width: 765px) {
+    .herosection {
+      width: 100%;
+      text-align: center;
+      padding: 10px 10px;
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    .herosection > .right {
+      width: 100% !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .left .text h2 {
+      width: 100%;
+      text-wrap: wrap !important;
+    }
+  
+    .left .text p {
+      width: 100%;
+    }
+  
+    .features {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    .herosection-text {
+      text-wrap: wrap;
+    }
+    .Course_We_Offer {
+      padding: 0px;
+    }
+    .course_cards {
+      flex-wrap: wrap;
+    }
+    .sapling {
+      width: 95%;
+    }
+    .camponyslogo {
+      overflow-x: hidden;
+    }
+    .student_wall {
+      padding: 10px;
+    }
+    .testimonials {
+      display: block !important;
+    }
+    .testimonial1 {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    .navlinks {
+      display: none;
+    }
+  }
+  @media (min-width: 766px) and (max-width: 1024px) {
+    .herosection {
+      width: 100%;
+      text-align: center;
+      padding: 10px 10px;
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    .herosection > .right {
+      width: 100% !important;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center !important;
+    }
+    .left .text h2 {
+      width: 100%;
+      text-wrap: wrap !important;
+    }
+  
+    .left .text p {
+      width: 100%;
+    }
+  
+    .features {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    .herosection-text {
+      text-wrap: wrap;
+    }
+    .Course_We_Offer {
+      padding: 20px;
+    }
+    .course_cards {
+      justify-content: center !important;
+      flex-wrap: wrap;
+    }
+  
+    .sapling {
+      width: 95%;
+      margin: 5px;
+    }
+    .camponyslogo {
+      overflow-x: hidden;
+    }
+    .student_wall {
+      padding: 10px;
+    }
+    .testimonials {
+      display: block !important;
+    }
+    .testimonial1 {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    .navlinks {
+      display: flex;
+    }
+  }
+  
